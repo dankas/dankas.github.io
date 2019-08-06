@@ -1,5 +1,6 @@
 ---
-title: Contact Me
+title: Contact
+menus: header
 layout: contact_me
 permalink: /contact
 ---
