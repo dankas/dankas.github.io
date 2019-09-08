@@ -1,17 +1,17 @@
-title: 0XC3!
+title: Dankas!
 subtitle: 01001000 01100101 01101100 01101100 01101111 00100000 00111011 00101001
 description: >- # this means to ignore newlines until "baseurl:"
-  A Jekyll Theme Built For Developers
+ # A Jekyll Theme Built For Developers
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dankas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-author_logo: profile.png
+author_logo: android.svg
 disqus_shortname: dankasmoraes  #for comments using disqus
-author: devlopr
-author_bio: devlopr-jekyll is a theme built for developers. Anyone can create a blog like this. As easy as PIE !
+author: Daniel Moraes [Dankas]
+author_bio: Técnico em eletrônica formado pelo Cefet-RS/IFSul Campus Pelotas, estudante de engenharia elétrica com interesse em tecnologias open source, automação e eletrônica em geral. 
 author_email: "dankasmoraes@gmail.com"
 author_location: Pelotas
-author_website_url: "https://sujaykundu.com"
+author_website_url: "http://dankas.github.io"
 
 # social links
 twitter_username: dankas__
@@ -24,6 +24,7 @@ medium_username:
 telegram_username: 
 dribbble_username: 
 flickr_username: 
+hackaday_username: dankas
 
 # dont touch this unless required
 plugins:
@@ -31,7 +32,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   #- jekyll-analytics
-  - jekyll-algolia
+  #- jekyll-algolia
   - jekyll-menus 
 
 
