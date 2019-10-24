@@ -30,7 +30,7 @@ hackaday_username: dankas
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
+  #- jekyll-seo-tag
   #- jekyll-analytics
   #- jekyll-algolia
   - jekyll-menus 
