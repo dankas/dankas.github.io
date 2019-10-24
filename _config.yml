@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dankas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-author_logo: android.svg
+author_logo: cilonio.gif
 disqus_shortname: dankasmoraes  #for comments using disqus
 author: Daniel Moraes [Dankas]
 author_bio: Técnico em eletrônica formado pelo Cefet-RS/IFSul Campus Pelotas, estudante de engenharia elétrica com interesse em tecnologias open source, automação e eletrônica em geral. 
