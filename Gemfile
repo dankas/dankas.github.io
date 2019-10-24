@@ -9,6 +9,7 @@ group :jekyll_plugins do
     gem 'jekyll-analytics'
     gem 'jekyll-algolia'
     gem 'jekyll-menus'
+	
   end
 
 gemspec
