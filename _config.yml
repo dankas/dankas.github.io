@@ -1,61 +1,71 @@
-title: Dankas!
-subtitle: 01001000 01100101 01101100 01101100 01101111 00100000 00111011 00101001
-description: >- # this means to ignore newlines until "baseurl:"
- # A Jekyll Theme Built For Developers
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dankas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Leonids
+email:
+description: A simple and awesome blog theme powered by jekyll.
+url: # the base hostname & protocol for your site
+keywords: ["blog", "jekyll"]
 
-author_logo: cilonio.gif
-disqus_shortname: dankasmoraes  #for comments using disqus
-author: Daniel Moraes [Dankas]
-author_bio: Técnico em eletrônica formado pelo Cefet-RS/IFSul Campus Pelotas, estudante de engenharia elétrica com interesse em tecnologias open source, automação e eletrônica em geral. 
-author_email: "dankasmoraes@gmail.com"
-author_location: Pelotas
-author_website_url: "http://dankas.github.io"
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          america/Montevideo
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
-# social links
-twitter_username: dankas__
-github_username:  dankas
-facebook_username: dankasmoraes
-linkedin_username: dankasmoraes
-behance_username: 
-instagram_username: dankas__
-medium_username: 
-telegram_username: 
-dribbble_username: 
-flickr_username: 
-hackaday_username: dankas
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-# dont touch this unless required
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  #- jekyll-seo-tag
-  #- jekyll-analytics
-  #- jekyll-algolia
-  - jekyll-menus 
-
-
-# code highlighter
-highlighter: rouge
-
-
-
-# minify html
-compress_html:
-    clippings: []
-    comments: []
-    endings: []
-    ignore:
-    envs: []
-    blanklines: false
-    profile: false
-    startings: []
-
-# algolia search 
-algolia:
-  application_id: D9WA1YKTRQ
-  index_name: blog_posts # You can replace that with whatever name you want
-  files_to_exclude: []
-  nodes_to_index: 'article'
-  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Leonids
+  avatar: leonids-logo.png
+  job: "A jekyll theme"
+  bio: "A simple and awesome blog theme powered by jekyll."
+  email:
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: dankas
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  skype: #username
+  xing: #username
+  instagram: #dankas__
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username

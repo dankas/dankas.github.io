@@ -1,48 +1,56 @@
+{% if page.title %}
+  {% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}
+{% else %}
+  {% capture title %}{{ site.title }}{% endcapture %}
+{% endif %}
+
+{% if page.excerpt %}
+  {% capture description %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endcapture %}
+{% else %}
+  {% capture description %}{{ site.description }}{% endcapture %}
+{% endif %}
+
 <head>
-  <meta charset="utf-8">
-  <!-- Site title -->
-  <title>{{ site.title }} - {{ site.subtitle }}</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ description }}">
+  <meta name="keywords" content="{{ site.keywords | array_to_sentence_string }}">
+  <meta name="author" content="{{ title | escape }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f5f5">
 
-  <meta http-equip="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Twitter Tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ title | escape }}">
+  <meta name="twitter:description" content="{{ description | escape }}">
+  {% if page.image.feature %}
+    <meta property="twitter:image" content="{{ site.url }}/img/{{ page.image.feature }}">
+  {% else %}
+    <meta property="twitter:image" content="{{ site.url }}/img/leonids-logo.png">
+  {% endif %}
 
-  <!-- Site Description -->
-  <meta name="description" content="{{ site.description }}">
+  <!-- Open Graph Tags -->
+  <meta property="og:type" content="blog">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{{ title | escape }}">
+  <meta property="og:description" content="{{ description | escape }}">
+  {% if page.image.feature %}
+    <meta property="og:image" content="{{ site.url }}/img/{{ page.image.feature }}">
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}/img/leonids-logo.png">
+  {% endif %}
+  <title>{{ title }}</title>
 
-  <!-- Stylesheets goes here -->
-  <link rel="stylesheet" href="/assets/css/main.css" />
+  <!-- CSS files -->
+  <link rel="stylesheet" href="{{ site.url }}/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.url }}/css/main.css">
 
-  <!-- Favicon -->
-  <link rel="icon" href="/assets/img/favicon.ico" type="image/gif" sizes="48x48">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-    
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: site.url }}" />
 
-   <!--  <script>
-      (function(d, h, m){
-          var js, fjs = d.getElementsByTagName(h)[0];
-          if (d.getElementById(m)){return;}
-          js = d.createElement(h); js.id = m;
-          js.onload = function(){
-              window.makerWidgetComInit({
-              position: "right",          
-              widget: "ofeeof264otl2l5g-zspk40eq2gaomj2n-higi2qphmveubksi"                
-          })};
-          js.src = "https://makerwidget.com/js/embed.js";
-          fjs.parentNode.insertBefore(js, fjs)
-      }(document, "script", "dhm"))
-  </script> -->
-  <!-- Google Adsense -->
-
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <!-- Icons -->
+  <!-- 16x16 -->
+  <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+  <!-- 32x32 -->
+  <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
 </head>
