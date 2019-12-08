@@ -33,14 +33,14 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: Dankas
   avatar: leonids-logo.png
   job: "A jekyll theme"
   bio: "A simple and awesome blog theme powered by jekyll."
   email:
   disqus-shortname:
-  twitter: #username
-  facebook: #username
+  twitter: #dankas__
+  facebook: #dankasmoraes
   google:
     plus: #username
     analytics:
@@ -51,7 +51,7 @@ owner:
   github: dankas
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: #dankasmoraes
   skype: #username
   xing: #username
   instagram: #dankas__
