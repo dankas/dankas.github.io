@@ -9,7 +9,7 @@ pinned: true
 image:
   feature: postman_code.gif
 ---
-# Dica para facilitar o dia a dia 1
+# Dica para facilitar o dia a dia 
 
 Se tu usas o POSTMAN APP para fazer/testar requisições a APIs REST, existe uma opção **CODE** na lateral direita para gerar códigos para diversas linguagens de programação com a requisição atual da feita pelo app:
 
