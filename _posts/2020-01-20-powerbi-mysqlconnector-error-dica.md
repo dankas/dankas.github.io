@@ -8,7 +8,7 @@ comments: true
 pinned: false
 Categories: [Dicas,PowerBI]
 image:
-  feature: Error Screenshotpowrbi.JPG
+  feature: Screenshotpowrbi.JPG
 ---
 # Conectando PowerBI com banco MySQL 
 
