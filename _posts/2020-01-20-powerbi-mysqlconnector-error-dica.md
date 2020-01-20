@@ -20,4 +20,3 @@ Faltava alguma dependência para conectar o banco. A solução para isso é simp
 
 Depois de atualizado a conexão funcionou como esperado. Agora to começando a aprender o funcionamento da ferramenta XD
 ![Imagem] (/img/powerbirelatorio.jpg)
-.
