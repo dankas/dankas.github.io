@@ -19,5 +19,5 @@ Comecei a estudar o **PowerBI** da microsoft como uma solução para visualizar 
 Faltava alguma dependência para conectar o banco. A solução para isso é simplesmente atualizar o DOTNet Connector disponibilizado pelo MySQL, para isso basta ir no **MySQL Installer** ou entrar neste link: [DOTNet Connector](https://dev.mysql.com/downloads/connector/net/).
 
 Depois de atualizado a conexão funcionou como esperado. Agora to começando a aprender o funcionamento da ferramenta XD
-![Imagem] (/img/powerbirelatorio.png)
+![Imagem] (/img/powerbirelatorio.jpg)
 .

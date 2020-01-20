@@ -5,16 +5,7 @@ layout: default
 <a class="btn" href= "{{ site.url }}/" >
   Home
 </a>
-{% if page.image.feature %}
-<div class="post-image-feature">
-  <img class="feature-image" src=
-
-  alt="{{ page.title | escape }} feature image">
-
-  {% if page.image.credit %}
-  <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-  {% endif %}
-</div><!-- /.image-wrap -->
+<!-- /.image-wrap -->
 {% endif %}
 
 

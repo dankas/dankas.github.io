@@ -17,3 +17,4 @@ Se tu usas o POSTMAN APP para fazer/testar requisições a APIs REST, existe uma
 ![Video postman code](/img/postman_code_2.gif)
 
  Foi uma mão da roda para min, precisava baixar informações de uma API REST e usar em um script powershell que atualiza o status de suprimentos das impressoras aqui da empresa. gerei o código pronto para usar no script!
+ .
