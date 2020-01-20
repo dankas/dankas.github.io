@@ -6,7 +6,7 @@ modified: 2019-12-23
 tags: [postman app, beginner, dicas, API, RESTAPI]
 comments: true
 pinned: true
-Categorie: Dicas
+Categories: [Dicas]
 image:
   feature: postman_code.gif
 ---
