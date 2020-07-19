@@ -5,7 +5,7 @@
 #
 title: Dankas
 email: dankasmoraes@gmail.com
-description: A simple and awesome blog theme powered by jekyll.
+description: Blog pessoal sobre programação e engenharia.
 url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
 
@@ -18,7 +18,7 @@ timezone:          america/Montevideo
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+permalink:         /articles/:title
 
 kramdown:
   auto_ids: true
