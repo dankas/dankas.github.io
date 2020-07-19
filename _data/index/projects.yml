@@ -1,4 +1,4 @@
-- name: 
-  descr: 
-  image: 
-  github: 
+- name: Monitor de Energia Elétrica IFSul Pelotas
+  descr: Sistema de monitoramento do uso de energia elétrica no campus Pelotas do IFSul, centrado numa web API baseada em GraphQL.
+  image: IFSulmonitor.png
+  github: https://github.com/dankas/MonitorEnergia_IFSul
