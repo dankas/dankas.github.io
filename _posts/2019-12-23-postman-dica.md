@@ -18,4 +18,4 @@ Se tu usas o POSTMAN APP para fazer/testar requisições a APIs REST, existe uma
 
  Foi uma mão da roda para min, precisava baixar informações de uma API REST e usar em um script powershell que atualiza o status de suprimentos das impressoras aqui da empresa. gerei o código pronto para usar no script!
  .
- d
+ 
