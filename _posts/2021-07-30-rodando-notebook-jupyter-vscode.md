@@ -10,7 +10,6 @@ Categories: [Dicas,Data Science]
 image:
   feature: vscode_jupyter.png
 ---
-# Criando um ambiente para executar a biblioteca pandas com Jupyter Lab e VSCode.
 
 Eu gosto muito do [VS Code](https://code.visualstudio.com/). 	O editor de códigos da microsoft é muito versátil, permitindo o uso com diversas linguagem de programação ou criando ambientes completos de determinada "stack" tecnológica.  Extremamente customizável, podemos usar temas para mudar a aparência do editor e extensões para acrescentar ou modificar funcionalidades ao VSCode.   
 
