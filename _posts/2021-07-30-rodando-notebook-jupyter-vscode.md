@@ -11,11 +11,11 @@ image:
   feature: vscode_jupyter.png
 ---
 
-Eu gosto muito do [VS Code](https://code.visualstudio.com/). 	O editor de códigos da microsoft é muito versátil, permitindo o uso com diversas linguagem de programação ou criando ambientes completos de determinada "stack" tecnológica.  Extremamente customizável, podemos usar temas para mudar a aparência do editor e extensões para acrescentar ou modificar funcionalidades ao VSCode.   
+Eu gosto muito do [VS Code](https://code.visualstudio.com/). 	O editor de códigos da microsoft é muito versátil, permitindo o uso com diversas linguagens de programação ou criando ambientes completos de determinada "stack" tecnológica.  Extremamente customizável, podemos usar temas para mudar a aparência do editor e extensões para acrescentar ou modificar funcionalidades ao VSCode.   
 
-Quando eu entrei no desafio de analise de dados com python e pandas no bootcamp de Data Science da digital innovation one, procurei uma maneira de usar o editor para editar os notebooks usados na tarefa.  Foi justamente através das extensões que eu integrei ele a plataforma jupyter, o que permitiu usar as funções integradas ao VSCode(como o versionamento GIT).   Com esse artigo mostrarei como configurar e transformar o editor da microsoft em um ambiente eficiente para editar nossos notebooks do pandas =D
+Quando eu entrei no desafio de análise de dados com python e pandas no bootcamp de Data Science da digital innovation one, procurei uma maneira de usa-lo para editar os notebooks usados na tarefa.  Foi justamente através das extensões que eu integrei ele a plataforma jupyter, o que permitiu usar as funções integradas ao VSCode(como o versionamento GIT).   Com esse artigo mostrarei como configurar e transformar o editor da microsoft em um ambiente eficiente para editar nossos notebooks do pandas =D
 
-O pré-requisito para usarmos os notebooks do jupyter no VSCode é termos o jupyter instalado , já que ao roda-los nos conectamos com o kernel da aplicação.    No meu caso eu já possuía o jupyter lab instalado, caso tu não tenhas pode baixar o anaconda (que é o recomendável) através deste link: [Anaconda](https://www.anaconda.com/products/individual) ou usar o gerenciador de pacotes do python, abrindo o terminal e rodando o comando 
+O pré-requisito para usarmos os notebooks do jupyter no VSCode é termos o jupyter instalado , já que ao rodá-los nos conectamos com o kernel da aplicação.    No meu caso eu já possuía o jupyter lab instalado, caso tu não tenhas pode baixar o anaconda (que é o recomendável) através deste link: [Anaconda](https://www.anaconda.com/products/individual) ou usar o gerenciador de pacotes do python, abrindo o terminal e rodando o comando 
 
 ```
 pip install jupyterlab
