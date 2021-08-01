@@ -8,7 +8,7 @@ comments: true
 pinned: false
 Categories: [Dicas,Data Science]
 image:
-  feature: scode_jupyter.png
+  feature: vscode_jupyter.png
 ---
 # Criando um ambiente para executar a biblioteca pandas com Jupyter Lab e VSCode.
 
