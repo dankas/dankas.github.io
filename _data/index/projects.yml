@@ -1,6 +1,5 @@
-- name: Monitor de Energia Elétrica IFSul Pelotas
+- name: Sistema de Monitoramento da Infraestrutura
   descr: S.M.I é o projeto de um sistema de gerenciamento e monitoramento da infraestrutura do IFSul Campus Pelotas, disponibilizando de maneira centralizada uma visão integrada da infraestrutura do campus tanto em tempo real quanto em datasets do estado ao longo do tempo.
   image: IFSulmonitor.png
-  github: https://github.com/dankas/MonitorEnergia_IFSul
-
+  github: https://github.com/dankas/SMI_IFSul
   
