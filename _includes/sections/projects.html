@@ -3,7 +3,7 @@
 {% for project in site.data.index.projects %}
     <div class="row">
             <div class="col">
-                <div style="background-image: url('http://dankas.github.io/img/smi.jpg');background-size: cover;">
+                <div style="background-image: url('{{ project.image}}');background-size: cover; padding-top: 100px;">
                 <h3 style="margin: 0">{{ project.name }}</h3>
                 </div>
                 <p style="margin: 0">{{ project.descr }}</p>

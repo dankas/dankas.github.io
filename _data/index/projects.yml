@@ -1,5 +1,5 @@
 - name: Sistema de Monitoramento da Infraestrutura
   descr: S.M.I é o projeto de um sistema de gerenciamento e monitoramento da infraestrutura do IFSul Campus Pelotas, disponibilizando de maneira centralizada uma visão integrada da infraestrutura do campus tanto em tempo real quanto em datasets do estado ao longo do tempo.
-  image: IFSulmonitor.png
+  image: https://dankas.github.io/img/smi.png
   github: https://github.com/dankas/SMI_IFSul
   
