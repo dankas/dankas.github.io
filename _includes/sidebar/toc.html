@@ -1,0 +1,83 @@
+<div class="sidebar">
+  <img src="https://dankas.github.io/img/cilonio.gif" alt="" class="avatar">
+  <div class="bloco">
+    <a href="/" class="nome">{{ site.title }}</a>
+    <span><h5>{%- if site.description -%}{{ site.author.bio }}{%- endif -%}</h5></span>
+    <span><h6>{%- if site.description -%}{{ site.description }}{%- endif -%}</h6></span>
+  </div>
+  <div class="bloco">
+    <div class="social-links">
+      <ul>
+        
+        <li><a href="http://twitter.com/dankas__" class="social-link-item" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
+        <li><a href="http://linkedin.com/in/dankasmoraes" class="social-link-item" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
+        <li><a href="http://instagram.com/dankas__" class="social-link-item" target="_blank"><i class="fa fa-fw fa-instagram"></i></a></li>
+        <li><a href="http://github.com/dankas" class="social-link-item" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>
+        
+        <li><a href="http://www.youtube.com/channel/UCDcSZl7JbE_f8WqLBMH0ndg" class="social-link-item" target="_blank"><i class="fa fa-fw fa-youtube"></i></a></li>
+        
+      </ul>
+    </div>
+  </div>
+  {%- if page.sidebar.nav -%}
+    <div class="sidebar-toc">
+      {%- assign _sidebar_nav = site.data.navigation[page.sidebar.nav] -%}
+      {%- if _sidebar_nav -%}
+      <ul class="toc toc--navigator">
+        {%- for _item in _sidebar_nav -%}
+          <li class="toc-h1">{{ _item.title }}</li>
+          {%- if _item.children -%}
+            {%- for _child in _item.children -%}
+              {%- include snippets/get-nav-url.html path=_child.url -%}
+              {%- assign _nav_url = __return -%}
+              {%- include snippets/get-nav-url.html path=page.url -%}
+              {%- assign _page_url = __return -%}
+              {%- if _nav_url == _page_url -%}
+                <li class="toc-h2 active"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
+              {%- else -%}
+                <li class="toc-h2"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+        {%- endfor -%}
+        </ul>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+<footer class="footer py-4 js-page-footer">
+  <div class="main">
+
+    {%- assign _site_author = site.author -%}
+    {%- if _site_author.type == 'organization' -%}
+      {%- assign _site_author_itemtype = 'http://schema.org/Organization' -%}
+    {%- else -%}
+      {%- assign _site_author_itemtype = 'http://schema.org/Person' -%}
+    {%- endif -%}
+
+    <div itemscope itemtype="{{ _site_author_itemtype }}">
+      <meta itemprop="name" content="{{ _site_author.name }}">
+      {%- assign _site_author_url = _site_author.url | default: '/'-%}
+      {%- include snippets/get-nav-url.html path=_site_author_url -%}
+      {%- assign _site_author_url = __return -%}
+      <meta itemprop="url" content="{{ _site_author_url }}">
+      {%- if _site_author.bio -%}
+        <meta itemprop="description" content="{{ _site_author.bio }}">
+      {%- endif -%}
+      <div class="footer__author-links">
+        {%- include author-links.html author=_site_author -%}
+      </div>
+    </div>
+    {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
+    {%- assign _locale_copyright_dates = __return -%}
+    <div class="site-info mt-2">
+      <div>
+        {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
+        {%- assign _locale_copyright_dates = __return -%}
+        © {{ site.title }} {{ _locale_copyright_dates }},  O cylon é criação da <a href="http://www.ilafox.com">Ilafox</a>
+        Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
+        title="TeXt is a super customizable Jekyll theme." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
+      </div>
+    </div>
+  </div>
+</footer>
+</div>

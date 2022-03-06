@@ -1,0 +1,27 @@
+header:
+  - titles:
+      # @start locale config
+      en      : &EN       Notas & Estudos
+      # @end locale config
+    url: /notes.html
+  - titles:
+      # @start locale config
+      en      : &EN       Projetos
+      # @end locale config
+    url: /projects.html
+  - titles:
+      # @start locale config
+      en      : &EN       Categorias
+      # @end locale config
+    url: /archive.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      # @end locale config
+    url: /about.html
+side:
+  
+
+
+
