@@ -1,6 +1,11 @@
 header:
   - titles:
       # @start locale config
+      en      : &EN       Home
+      # @end locale config
+    url: /index.html
+  - titles:
+      # @start locale config
       en      : &EN       Notas & Estudos
       # @end locale config
     url: /notes.html
