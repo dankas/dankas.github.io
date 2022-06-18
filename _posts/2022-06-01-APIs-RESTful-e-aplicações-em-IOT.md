@@ -178,4 +178,4 @@ Por fim o que eu acho o mais importante, organização do código!  Nós implant
 
 O MCR (model-controller-routes)  consiste em separar as responsabilidades de cada parte do código em arquivos separados e dessa forma evitar a bagunça na programação!  Na nossa API usaríamos o **sequelize** para ORM e com isso já teríamos os MODELS, que a abstração dos nossos objetos reais (equipamentos, monitoramento...), criaríamos um novo arquivo js chamado de **controller** onde escreveríamos a lógica (pegar os dados, consultar o banco, escrever resposta para o cliente...) e um outro arquivo chamado de **routes** para gerenciar as rotas (pegar a rota "/monitoramento/equipamento/1" por exemplo) e determinar se for um ***GET*** chama o **controller** de listagem- se for ***POST*** chama o **controller** responsável por salvar a informação... Deixamos assim o index.js somente para gerenciar a conexão do banco de dados e importar os módulos.
 
-No link abaixo tem o exemplo de uma API  sendo já criando seguindo o padrão de MCR e também fazendo algo muito importante: validando os dados enviados pelos clientes.
+
