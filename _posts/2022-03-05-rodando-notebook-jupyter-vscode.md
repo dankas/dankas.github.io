@@ -18,6 +18,8 @@ Eu gosto muito do [VS Code](https://code.visualstudio.com/). 	O editor de códig
 
 Quando eu entrei no desafio de análise de dados com python e pandas no bootcamp de Data Science da digital innovation one, procurei uma maneira de usa-lo para editar os notebooks usados na tarefa.  Foi justamente através das extensões que eu integrei ele a plataforma jupyter, o que permitiu usar as funções integradas ao VSCode(como o versionamento GIT).   Com esse artigo mostrarei como configurar e transformar o editor da microsoft em um ambiente eficiente para editar nossos notebooks do pandas =D
 
+<!--more-->
+
 O pré-requisito para usarmos os notebooks do jupyter no VSCode é termos o jupyter instalado , já que ao rodá-los nos conectamos com o kernel da aplicação.    No meu caso eu já possuía o jupyter lab instalado, caso tu não tenhas pode baixar o anaconda (que é o recomendável) através deste link: [Anaconda](https://www.anaconda.com/products/individual) ou usar o gerenciador de pacotes do python, abrindo o terminal e rodando o comando 
 
 ```

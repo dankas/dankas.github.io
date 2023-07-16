@@ -20,6 +20,7 @@ Troca da tela de lubrificação da fusão de uma RICOH Aficio MP 5002
 
 ![Unidade de fusão em manutenção](/assets/images/blog/ricohmanu01.jpg)
 
+<!--more-->
 ![Unidade de fusão em manutenção](/assets/images/blog/ricohmanu02.jpg)
 
 ![Unidade de fusão em manutenção](/assets/images/blog/ricohmanu03.jpg)

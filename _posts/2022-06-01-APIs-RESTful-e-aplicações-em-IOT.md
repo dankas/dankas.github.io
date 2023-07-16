@@ -73,7 +73,7 @@ Internet of Things (IOT), ou em bom português *internet dos bagulhos*, é o con
 Imagine que certos objetos entre outras coisas como livros, termostatos, refrigeradores, lâmpadas, remédios, autopeças, fossem equipados com dispositivos de identificação e conectados à Internet, não haveria a possibilidade de faltarem produtos como alguns remédios, pois saberíamos exatamente onde os encontrar e quantos estariam disponíveis. Ou então sensores em uma plantação, que manteriam informações detalhadas de umidade no solo, insolação, níveis de nutrientes, tudo isso permitindo correções automáticas deste fatores- o quanto não aumentaria a eficiência da produção desta fazenda?   Essa é a ideia central do IOT, aumentar a eficiência de processos de produção e serviços.
 
     
-
+<!--more-->
 ---
 
 ## SEGUNDA AULA - CONFIGURAÇÃO DO BANCO DE DADOS.
