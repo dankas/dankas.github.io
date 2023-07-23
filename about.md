@@ -18,10 +18,19 @@ Eu sou Daniel e Daniel sou eu! Nasci na festiva cidade de Santa Cruz do Sul, mas
         <li>
           <div class="direction-r">
             <div class="flag-wrapper">
-              <span class="flag">IFSul - Eng. Elétrica</span>
-              <span class="time-wrapper"><span class="time">2016 - present</span></span>
+              <span class="flag">IFSul - Tecnologia em Sistemas para Internet</span>
+              <span class="time-wrapper"><span class="time">2023 - present</span></span>
             </div>
-            <div class="desc">Bacharela em engenharia elétrica </div>
+            <div class="desc">Tecnologo Tecnologia em Desenvolvimento de Sistemas </div>
+          </div>
+        </li>
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">IFSul - Eng. Elétrica</span>
+              <span class="time-wrapper"><span class="time">2016 - 2023</span></span>
+            </div>
+            <div class="desc">Bacharelado em engenharia elétrica não concluido</div>
           </div>
         </li>
         <li>
