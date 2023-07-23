@@ -15,6 +15,7 @@ Eu sou Daniel e Daniel sou eu! Nasci na festiva cidade de Santa Cruz do Sul, mas
 ## timeline
 <div>
       <ul class="timeline">
+        <li></li>
         <li>
           <div class="direction-r">
             <div class="flag-wrapper">
