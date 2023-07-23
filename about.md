@@ -10,18 +10,28 @@ sidebar:
 [/ Timeline /](/about.html#timeline)[/ Skills /](/about.html#skills)
 
 
-Eu sou Daniel e Daniel sou eu! Nasci na festiva cidade de Santa Cruz do Sul, mas desde os dois meses de idade moro em Pelotas, o que me torna um pelotense por opção.  Desde muito cedo (graças a profissão de meu pai e aos livros aqui de casa) afeiçoado por tecnologia e ciências. 
+Eu sou Daniel e Daniel sou eu! Nasci na festiva cidade de Santa Cruz do Sul, mas desde os dois meses de idade moro em Pelotas, o que me torna um pelotense por opção.  Desde muito cedo (graças a profissão de meu pai e aos livros aqui de casa) afeiçoado por tecnologia e ciências.
 
 ## timeline
 <div>
       <ul class="timeline">
 
+        <li>
           <div class="direction-r">
             <div class="flag-wrapper">
               <span class="flag">IFSul - Sistemas para Internet</span>
               <span class="time-wrapper"><span class="time">2023 - present</span></span>
             </div>
             <div class="desc">Tecnologo Tecnologia em Desenvolvimento de Sistemas </div>
+          </div>
+        </li>
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">IFSul - Eng. Elétrica</span>
+              <span class="time-wrapper"><span class="time">2016 - 2023</span></span>
+            </div>
+            <div class="desc">Bacharelado em engenharia elétrica não concluido</div>
           </div>
         </li>
         <li>
