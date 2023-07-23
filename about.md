@@ -18,7 +18,7 @@ Eu sou Daniel e Daniel sou eu! Nasci na festiva cidade de Santa Cruz do Sul, mas
         <li>
           <div class="direction-r">
             <div class="flag-wrapper">
-              <span class="flag">IFSul - Tecnologia em Sistemas para Internet</span>
+              <span class="flag">IFSul - Sistemas para Internet</span>
               <span class="time-wrapper"><span class="time">2023 - present</span></span>
             </div>
             <div class="desc">Tecnologo Tecnologia em Desenvolvimento de Sistemas </div>
