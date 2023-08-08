@@ -4,11 +4,6 @@ key: 20230808
 tags: 
   - Blog
    
-article_header:
-  type: cover
-  image:
-    src: /assets/images/blog/boasnovas.png
-
 
 ---
 # Nós vamos RESOLVER as mudanças climáticas!
