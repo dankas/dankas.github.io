@@ -10,4 +10,4 @@ tags:
 
 
 
-![Imagem](/assets/images/blog/20230815_185557.jpg "Galeria 4 ao anoitecer de terça"){:width="850px" height="661px"}
+![Imagem](/assets/images/blog/20230815_185557.jpg "Galeria 4 ao anoitecer de terça"){:width="650px" height="661px"}
