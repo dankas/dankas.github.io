@@ -37,7 +37,7 @@ author:
   type      : organization # "person" (default), "organization"
   name      : Dankas
   url       :
-  avatar    : /assets/images/logo/cilonio.gif
+  avatar    : /assets/images/logo/logo.png
   bio: >
     Eu faço coisas!
   email     : 1
