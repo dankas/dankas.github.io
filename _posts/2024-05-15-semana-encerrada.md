@@ -1,5 +1,5 @@
 ---
-title: Quarta-feira: Semana praticamente encerrada.
+title: Quarta feira - Semana praticamente encerrada.
 key: 20220515
 tags: 
   - blog
