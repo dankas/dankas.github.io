@@ -13,6 +13,7 @@
   height: 5rem;
   margin-top: map-get($spacers, 2);
   border-radius: 50%;
+  padding: 5px;
 }
 .author-profile__name {
   font-size: map-get($base, font-size-lg);
