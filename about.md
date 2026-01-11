@@ -19,7 +19,7 @@ Eu sou Daniel e Daniel sou eu! Nasci na festiva cidade de Santa Cruz do Sul, mas
         <li>
           <div class="direction-l">
             <div class="flag-wrapper">
-              <span class="flag"><a href="https://www.embrapa.br/clima-temperado" target="_blank">mbrapa Clima Temperado</a></span>
+              <span class="flag"><a href="https://www.embrapa.br/clima-temperado" target="_blank">Embrapa Clima Temperado</a></span>
               <span class="time-wrapper"><span class="time">2025 - present</span></span>
             </div>
             <div class="desc">Suporte e manutenção técnica de ativos de TI.</div>
