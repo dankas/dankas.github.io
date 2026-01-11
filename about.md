@@ -15,7 +15,16 @@ Eu sou Daniel e Daniel sou eu! Nasci na festiva cidade de Santa Cruz do Sul, mas
 ## timeline
 <div>
       <ul class="timeline">
-
+        </li>
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Embrapa Clima Temperado</span>
+              <span class="time-wrapper"><span class="time">2025 - present</span></span>
+            </div>
+            <div class="desc">Suporte e manutenção técnica de ativos de TI.</div>
+          </div>
+        </li>
         <li>
           <div class="direction-r">
             <div class="flag-wrapper">
@@ -38,7 +47,7 @@ Eu sou Daniel e Daniel sou eu! Nasci na festiva cidade de Santa Cruz do Sul, mas
           <div class="direction-l">
             <div class="flag-wrapper">
               <span class="flag">Compucom</span>
-              <span class="time-wrapper"><span class="time">2015 - present</span></span>
+              <span class="time-wrapper"><span class="time">2015 - 2025</span></span>
             </div>
             <div class="desc">Suporte ao usuário e manutenção de parques de impressão</div>
           </div>
