@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // A instrução necessária para o GitHub Pages:
+  output: "export",
+  
   /* config options here */
   experimental: {
     agentFeedback: true,
